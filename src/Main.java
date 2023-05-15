@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         for (int i = 1; i <= 11; i++) {
-            File file = new File("ex" + i + ".md");
+            File file = new File("ex" + i + ".sql");
             try {
                 Files.createFile(file.toPath());
             } catch (IOException e) {
