@@ -29,7 +29,7 @@ fa riferimento all id.
 
 
 4. Elimina alcuni clienti con delete from statement con una clausola WHERE che fa
-riferimento all'id.
+riferimento all id.
 
     delete from clienti
     where id = 2; --via greg dal gregge
